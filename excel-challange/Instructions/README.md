@@ -60,7 +60,7 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 
 ## Bonus
 
-* Create a new sheet with 8 columns:
+* ~~Create a new sheet with 8 columns:~~
 
   * `Goal`
   * `Number Successful`
@@ -71,7 +71,7 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
   * `Percentage Failed`
   * `Percentage Canceled`
 
-* In the `Goal` column, create 12 rows with the following headers:
+* ~~In the `Goal` column, create 12 rows with the following headers:~~
 
   * Less than 1000
   * 1000 to 4999
@@ -88,11 +88,11 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 
   ![Goal Outcomes](Images/GoalOutcomes.PNG)
 
-* Using the `COUNTIFS()` formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
+* ~~Using the `COUNTIFS()` formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.~~
 
-* Add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
+* ~~Add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.~~
 
-* Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
+* ~~Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.~~
 
 ## Bonus Statistical Analysis
 
