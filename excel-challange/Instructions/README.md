@@ -36,9 +36,9 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 
   ![Subcategory Stats](Images/SubcategoryStats.PNG)
 
-  * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
+  * ~~Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.~~
 
-  * Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
+  * ~~Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.~~
 
 * ~~The dates stored within the `deadline` and `launched_at` columns use Unix timestamps. Fortunately for us, [there is a formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) that can be used to convert these timestamps to a normal date.~~
 
@@ -48,9 +48,9 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 
   ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.PNG)
 
-  * Create a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
+  * ~~Create a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.~~
 
-  * Now create a pivot chart line graph that visualizes this new table.
+  * ~~Now create a pivot chart line graph that visualizes this new table.~~
 
 * Create a report in Microsoft Word and answer the following questions.
 
