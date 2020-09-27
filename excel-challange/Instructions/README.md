@@ -78,15 +78,18 @@ For those looking for an additional challenge, you will evaluate the number of b
 
 * Use Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
 
-![Calculations](Images/Tendency.png)
+  ![Calculations](Images/Tendency.png)
 
 * Use your data to determine whether the mean or the median summarizes the data more meaningfully.
+
   *Median is much more robost indicative for central tendency for the both successful and unsuccessful campaigns data set. 
 
   ![Successful Campaigns](Images/successfulCampaigns.png)
+
   *Successful Campaigns: Since we have skewed data set including 26457 backers, it is much better to observe the data boundaries with lower values to determine whether the mean or the median is better for central tendency. Graph "Successful Campaign" shows that median 62 with interquartile range for spread, where 1st quartile is 29 and the 3rd quartile is 141 includes higher volume of data where as mean 194.43 with 844.30 standard deviation.
 
   ![Successful Campaigns](Images/successfulCampaigns.png)
+
   *Unsuccessful Campaigns: Since we have skewed data set including 1293 backers, it is much better to observe the data boundaries with lower values to determine whether the mean or the median is better for central tendency. Graph "Unsuccessful Campaign" shows that the median 4 is more reasonable, where 1st quartile is 1 and the 3rd quartile is 12 includes higher volume of data whereas mean 17.7 with 61.42 standard deviation.
 
 

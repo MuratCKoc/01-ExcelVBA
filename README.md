@@ -1,6 +1,6 @@
 ##WELCOME
 
-# I will update the directory after the marks, I cannot risk it now sorry :D
+## I will update the directory after the marks, I cannot risk it now sorry :D
 
 ##Images are updated excel-challenge/Instructions/Images
 ##Analysis.docx is also available for the answers
