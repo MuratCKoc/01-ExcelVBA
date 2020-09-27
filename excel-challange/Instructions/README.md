@@ -119,12 +119,18 @@ For those looking for an additional challenge, you will evaluate the number of b
   * The standard deviation of the number of backers.
 
 * Use your data to determine whether the mean or the median summarizes the data more meaningfully.
+  *Median is much more robost indicative for central tendency for the both successful and unsuccessful campaigns data set. 
+
+  ![Successful Campaigns](Images/successfullCampaigns.png)
+  *Successful Campaigns: Since we have skewed data set including 26457 backers, it is much better to observe the data boundaries with lower values to determine whether the mean or the median is better for central tendency. Graph "Successful Campaign" shows that median 62 with interquartile range for spread, where 1st quartile is 29 and the 3rd quartile is 141 includes higher volume of data where as mean 194.43 with 844.30 standard deviation.
+
+  ![Successful Campaigns](Images/successfullCampaigns.png)
+  *Unsuccessful Campaigns: Since we have skewed data set including 1293 backers, it is much better to observe the data boundaries with lower values to determine whether the mean or the median is better for central tendency. Graph "Unsuccessful Campaign" shows that the median 4 is more reasonable, where 1st quartile is 1 and the 3rd quartile is 12 includes higher volume of data whereas mean 17.7 with 61.42 standard deviation.
+
 
 * Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
+*Summary: Successful campaigns median is 62 whereas unsuccessful campaigns is 4. Failed kickstarts generally has lack of backers which means lack of budget and support they need. Which is the main reason of the difference of the variability.
 
-## Submission
-
-* To submit your homework, upload the solution and files to a GitHub repo and submit the link to <https://bootcampspot.com/>.
 
 ## Employer-Ready Criteria
 
