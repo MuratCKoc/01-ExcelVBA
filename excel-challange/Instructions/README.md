@@ -6,11 +6,6 @@ Over $2 billion has been raised using the massively successful crowdfunding serv
 
 Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. For this week's homework, you will organize and analyze a database of 4,000 past projects in order to uncover any hidden trends.
 
-### Before You Begin
-
-1. Create a new space for this project called `excel-challenge` in either DropBox or Google Drive. **Do not add this homework to an existing space**.
-
-2. Store your excel workbooks in here and create a sharable link for submission.
 
 ## Instructions
 
@@ -18,81 +13,58 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 Using the Excel table provided, modify and analyze the data of 4,000 past Kickstarter projects as you attempt to uncover some market trends.
 
-* ~~Use conditional formatting to fill each cell in the `state` column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.~~
+* Use conditional formatting to fill each cell in the `state` column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.~~
 
-  * ~~Create a new column O called `Percent Funded` that uses a formula to uncover how much money a campaign made to reach its initial goal.~~
+  * Create a new column O called `Percent Funded` that uses a formula to uncover how much money a campaign made to reach its initial goal.~~
 
-* ~~Use conditional formatting to fill each cell in the `Percent Funded` column using a three-color scale. The scale should start at 0 and be a dark shade of red, transitioning to green at 100, and blue at 200.~~
+* Use conditional formatting to fill each cell in the `Percent Funded` column using a three-color scale. The scale should start at 0 and be a dark shade of red, transitioning to green at 100, and blue at 200.~~
 
-  * ~~Create a new column P called `Average Donation` that uses a formula to uncover how much each backer for the project paid on average.~~
+  * Create a new column P called `Average Donation` that uses a formula to uncover how much each backer for the project paid on average.~~
 
-  * ~~Create two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two parts.~~
+  * Create two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two parts.
 
   ![Category Stats](Images/CategoryStats.PNG)
 
-  * ~~Create a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.~~
+  * Create a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.~~
 
-  * ~~Create a stacked column pivot chart that can be filtered by country based on the table you have created.~~
+  * Create a stacked column pivot chart that can be filtered by country based on the table you have created.~~
 
   ![Subcategory Stats](Images/SubcategoryStats.PNG)
 
-  * ~~Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.~~
+  * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
 
-  * ~~Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.~~
+  * Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
 
-* ~~The dates stored within the `deadline` and `launched_at` columns use Unix timestamps. Fortunately for us, [there is a formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) that can be used to convert these timestamps to a normal date.~~
+* The dates stored within the `deadline` and `launched_at` columns use Unix timestamps. Fortunately for us, [there is a formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) that can be used to convert these timestamps to a normal date.
 
-  * ~~Create a new column named `Date Created Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `launched_at` into Excel's date format.~~
+  * Create a new column named `Date Created Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `launched_at` into Excel's date format.
 
-  * ~~Create a new column named `Date Ended Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `deadline` into Excel's date format.~~
+  * Create a new column named `Date Ended Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `deadline` into Excel's date format.~~
 
   ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.PNG)
 
-  * ~~Create a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.~~
+  * Create a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
 
-  * ~~Now create a pivot chart line graph that visualizes this new table.~~
+  * Now create a pivot chart line graph that visualizes this new table.
 
 * Create a report in Microsoft Word and answer the following questions.
 
 1. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
+* Campaigns are supported by art lovers that majority of the projects and backers fall in these categories’ theater, music, film and video.
+* All video/mobile games and web are failed or canceled. They are highly risky.
+* Lower goals have higher success rate such that 71% for less than 1000. However, same number of projects with goal of 50000 and above with a success rate of 19%. 
+
 2. What are some limitations of this dataset?
+* Reason of cancelation or failed is also important. Is that because of competition, market-penetration, bad management, unrealistic planning etc...?
 3. What are some other possible tables and/or graphs that we could create?
+* We could create the country, status, category, pledged table to observe what type of projects gets more funding from which countries. Such that a project from Turkey less likely will get funding due to limitation whereas US or GB sounds more reliable to crowd. 
 
 ## Bonus
 
-* ~~Create a new sheet with 8 columns:~~
-
-  * `Goal`
-  * `Number Successful`
-  * `Number Failed`
-  * `Number Canceled`
-  * `Total Projects`
-  * `Percentage Successful`
-  * `Percentage Failed`
-  * `Percentage Canceled`
-
-* ~~In the `Goal` column, create 12 rows with the following headers:~~
-
-  * Less than 1000
-  * 1000 to 4999
-  * 5000 to 9999
-  * 10000 to 14999
-  * 15000 to 19999
-  * 20000 to 24999
-  * 25000 to 29999
-  * 30000 to 34999
-  * 35000 to 39999
-  * 40000 to 44999
-  * 45000 to 49999
-  * Greater than or equal to 50000
+* Create a new sheet with 8 columns:
 
   ![Goal Outcomes](Images/GoalOutcomes.PNG)
 
-* ~~Using the `COUNTIFS()` formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.~~
-
-* ~~Add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.~~
-
-* ~~Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.~~
 
 ## Bonus Statistical Analysis
 
@@ -106,29 +78,20 @@ For those looking for an additional challenge, you will evaluate the number of b
 
 * Use Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
 
-  * The mean number of backers.
-
-  * The median number of backers.
-
-  * The minimum number of backers.
-
-  * The maximum number of backers.
-
-  * The variance of the number of backers.
-
-  * The standard deviation of the number of backers.
+![Calculations](Images/Tendency.png)
 
 * Use your data to determine whether the mean or the median summarizes the data more meaningfully.
   *Median is much more robost indicative for central tendency for the both successful and unsuccessful campaigns data set. 
 
-  ![Successful Campaigns](Images/successfullCampaigns.png)
+  ![Successful Campaigns](Images/successfulCampaigns.png)
   *Successful Campaigns: Since we have skewed data set including 26457 backers, it is much better to observe the data boundaries with lower values to determine whether the mean or the median is better for central tendency. Graph "Successful Campaign" shows that median 62 with interquartile range for spread, where 1st quartile is 29 and the 3rd quartile is 141 includes higher volume of data where as mean 194.43 with 844.30 standard deviation.
 
-  ![Successful Campaigns](Images/successfullCampaigns.png)
+  ![Successful Campaigns](Images/successfulCampaigns.png)
   *Unsuccessful Campaigns: Since we have skewed data set including 1293 backers, it is much better to observe the data boundaries with lower values to determine whether the mean or the median is better for central tendency. Graph "Unsuccessful Campaign" shows that the median 4 is more reasonable, where 1st quartile is 1 and the 3rd quartile is 12 includes higher volume of data whereas mean 17.7 with 61.42 standard deviation.
 
 
 * Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
+
 *Summary: Successful campaigns median is 62 whereas unsuccessful campaigns is 4. Failed kickstarts generally has lack of backers which means lack of budget and support they need. Which is the main reason of the difference of the variability.
 
 
