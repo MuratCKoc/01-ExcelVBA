@@ -1,4 +1,4 @@
-# Excel Homework: Kickstart My Chart
+# Excel Challenge: Kickstart My Chart
 
 ## Background
 
@@ -98,18 +98,3 @@ For those looking for an additional challenge, you will evaluate the number of b
 *Summary: Successful campaigns median is 62 whereas unsuccessful campaigns is 4. Failed kickstarts generally has lack of backers which means lack of budget and support they need. Which is the main reason of the difference of the variability.
 
 
-## Employer-Ready Criteria
-
-Students who are marked as employer-ready gain access to our employer referral program, additional workshops, and other resources. Work with your Career Director to become employer-ready. At a minimum, you must have:
-
-- A clear, concise, and compelling resume. Submit via your learning platform for review.
-- A polished GitHub profile:
-  - 3 - 6 pinned repositories ([instructions here](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile))
-  - at least 20 commits per repository
-  - professional titles, i.e. not "Homework #1"
-  - thorough README.md files for each repository
-  - clean code
-
-- - -
-
-© 2019 Trilogy Education Services
